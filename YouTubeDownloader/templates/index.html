@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Downloader</title>
+    <link rel="stylesheet" href="static/style.css" />
+</head>
+<body>
+    <form action="/" method="post">
+        <div>
+            <div class="download">
+                <input autocomplete="off" autofocus class="url" name="url" placeholder="URL" type="text">  
+            </div>
+            <div class="folderpath">
+                <input autocomplete="off" autofocus class="foldername" name="foldername" placeholder="ENTER A FOLDER NAME" type="text">  
+            </div>
+            <div class="box">
+                <input type="radio" name="choosePS" value="P">
+                <label for="playlist">Playlist</label>
+                    
+                <input type="radio" name="choosePS" value="S">
+                <label for="single">Single</label> 
+            </div> 
+            <div class="box1">
+                <label for="video">Video</label>
+                <input type="radio" name="chooseVA" value="V">
+                
+                <label for="audio">Audio</label> 
+                <input type="radio" name="chooseVA" value="A">
+            </div>
+            <button type="submit" name="submit_button">Download</button> 
+        </div>
+    </form>
+</body>
+</html>
