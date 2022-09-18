@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  background-color: #FFFFF6;
+  margin: 0;
+}
+
+.site-header {
+  background-color: #303030;
+  width: 200%;
+  padding: 15px 15px 0;
+  margin-top: 0px;
+}
+
+.site-header .logo {
+  font-family: Garamond;
+  color:#FFFFF6;
+  position: relative;
+  font-size:26px;
+}
+
+.links {
+  padding: 8px 0px 10px;
+  font-size: 16px;
+}
+
+a {
+  color: #FFFFF6;
+  text-decoration: none;
+}
+
+.youtlink:hover {
+  color: #ff0000;
+}
+
+.instlink:hover {
+  color: #E1306C;
+}
+.header {
+  padding: 60px;
+  display: flex;
+}

@@ -1,0 +1,110 @@
+.all {
+  position: absolute;
+  top: 300px;
+  left: 655px;
+}
+.search {
+  background-color: #303030;
+  width: 600px;
+  height: 44px;
+  border-radius: 5px;
+  display:flex;
+  flex-directio n:row;
+  align-items:center;
+}
+
+.url {
+  all: unset;
+  font: 15px system-ui;
+  color: #FFFFF6;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+
+::placeholder {
+  color: #FFFFF6;
+}
+
+.folderpath {
+  background-color: #303030;
+  position: relative;
+  left: 150px;
+  width: 300px;
+  height: 44px;
+  border-radius: 5px;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  margin: 5px;
+}
+
+.foldername {
+  all: unset;
+  font: 15px system-ui;
+  color: #FFFFF6;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+
+.box {
+  position: relative;
+  left: 148px;
+  color: #303030;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+
+}
+.box1 {
+  position: relative;
+  left: 380px;
+  top: -45px;
+  color: #303030;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+
+}
+button {
+  position: relative;
+  left: 600px;
+  top: -189.5px;
+  display: flex;
+  background-color: #303030;
+  border-radius: 5px;
+  border: 4px double #cccccc;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 14px;
+  padding: 11px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+button:hover {
+  background-color: #696969;
+}
+button:hover span {
+  padding-right: 25px;
+}
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
